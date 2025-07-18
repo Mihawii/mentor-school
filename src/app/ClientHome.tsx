@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
@@ -685,7 +686,7 @@ const AnimatedStat = ({ icon, end, suffix = "", label }: AnimatedStatProps) => {
 
   useEffect(() => {
     if (!inView) return;
-    let start = 0;
+    const start = 0;
     const duration = 1200;
     const startTime = performance.now();
     const animate = (now: number) => {
