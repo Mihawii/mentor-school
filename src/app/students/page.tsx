@@ -266,14 +266,14 @@ export default function StudentsPage() {
             whileHover={{ scale: 1.03 }}
             className="p-6 bg-white rounded-xl shadow-sm border border-[#E5E5E5]"
           >
-            <p className="text-[#074B70] mb-4 italic">"The teachers at Mentor-school are amazing! They make learning fun and help us reach our goals."</p>
+            <p className="text-[#074B70] mb-4 italic">&ldquo;The teachers at Mentor-school are amazing! They make learning fun and help us reach our goals.&rdquo;</p>
             <p className="text-sm text-[#074B70]">- Maria, Grade 8</p>
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.03 }}
             className="p-6 bg-white rounded-xl shadow-sm border border-[#E5E5E5]"
           >
-            <p className="text-[#074B70] mb-4 italic">"I love all the clubs and activities we have. It's great to try new things and make friends!"</p>
+            <p className="text-[#074B70] mb-4 italic">&ldquo;I love all the clubs and activities we have. It&rsquo;s great to try new things and make friends!&rdquo;</p>
             <p className="text-sm text-[#074B70]">- Ahmed, Grade 6</p>
           </motion.div>
         </div>
