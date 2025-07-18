@@ -632,11 +632,11 @@ export default function ClientHome() {
             </div>
             <div className="flex items-center gap-2">
               <span className="text-[#074B70]">📞</span>
-              <span>+998 72 123 4567</span>
+              <span>+998&nbsp;970&nbsp;90&nbsp;55&nbsp;75</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-[#074B70]">📧</span>
-              <span>info@mentor-school.uz</span>
+              <span>mirkhond.mamadiyorov@mentor-schools.com</span>
             </div>
           </div>
         </div>
