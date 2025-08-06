@@ -219,7 +219,7 @@ export default function ClientHome() {
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-4 text-[#074B70]">Mentor-school</h1>
           <p className="text-2xl md:text-3xl text-[#074B70] mb-6 font-medium">A Tradition of Excellence in Education</p>
-          <div className="text-lg text-[#074B70] mb-10">Est. 2023 | Jizzakh, Uzbekistan</div>
+          <div className="text-lg text-[#074B70] mb-10">Est. April 8, 2021 | Jizzakh city, Uzbekistan</div>
           <motion.a
             whileHover={{ scale: 1.07 }}
             whileTap={{ scale: 0.97 }}
@@ -244,9 +244,9 @@ export default function ClientHome() {
       >
         <div className="absolute inset-0 pointer-events-none z-0 opacity-10 bg-[url('/globe.svg')] bg-center bg-no-repeat bg-contain" />
         {/* Animated numbers for stats */}
-        <AnimatedStat icon="🎓" end={800} suffix="+" label="Students" />
-        <AnimatedStat icon="👩‍🏫" end={50} suffix="+" label="Teachers" />
-        <AnimatedStat icon="🏫" end={11} label="Grades" />
+        <AnimatedStat icon="🎓" end={1320} label="Students" />
+        <AnimatedStat icon="👩‍🏫" end={48} label="Teachers" />
+        <AnimatedStat icon="🏫" end={12} label="Grades" />
         <AnimatedStat icon="🏅" end={89} suffix="%" label="Graduation Rate" />
       </motion.section>
 
@@ -288,7 +288,7 @@ export default function ClientHome() {
             >
               <h3 className="text-2xl font-semibold text-[#074B70] mb-2">Who We Are</h3>
               <p className="text-base text-[#074B70] text-justify">
-                Founded in 2023 in the heart of Jizzakh, Mentor-school is a vibrant, forward-thinking community where tradition meets ambition. We are proud of our talented teachers, diverse student body, and our commitment to academic excellence and personal growth.
+                Founded on April 8, 2021 in Jizzakh city, Mentor-school is a private charter school and vibrant, forward-thinking community where tradition meets ambition. As a primarily online course delivery institution, we are proud of our talented teachers, diverse student body, and our commitment to academic excellence and personal growth.
               </p>
             </motion.div>
 
@@ -628,11 +628,11 @@ export default function ClientHome() {
           <div className="mt-8 text-[#074B70] space-y-3">
             <div className="flex items-center gap-2">
               <span className="text-[#074B70]">📍</span>
-              <span>123 Jizzakh Ave, Jizzakh city, Uzbekistan</span>
+              <span>Massiv Zargarlik, Jizzakh, 130100, Uzbekistan</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-[#074B70]">📞</span>
-              <span>+998&nbsp;970&nbsp;90&nbsp;55&nbsp;75</span>
+              <span>+998970905575</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-[#074B70]">📧</span>
