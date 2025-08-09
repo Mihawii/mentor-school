@@ -10,7 +10,7 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 
 export const metadata: Metadata = {
   title: "Mentor-school",
-  description: "Mentor-school - K-12 in Jizzakh, Uzbekistan",
+  description: "Mentor-school - High School in Jizzakh, Uzbekistan",
 };
 
 export default function RootLayout({

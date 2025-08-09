@@ -244,7 +244,7 @@ export default function ClientHome() {
       >
         <div className="absolute inset-0 pointer-events-none z-0 opacity-10 bg-[url('/globe.svg')] bg-center bg-no-repeat bg-contain" />
         {/* Animated numbers for stats */}
-        <AnimatedStat icon="🎓" end={1320} label="Students" />
+        <AnimatedStat icon="🎓" end={1078} label="Students" />
         <AnimatedStat icon="👩‍🏫" end={48} label="Teachers" />
         <AnimatedStat icon="🏫" end={12} label="Grades" />
         <AnimatedStat icon="🏅" end={89} suffix="%" label="Graduation Rate" />
@@ -368,76 +368,11 @@ export default function ClientHome() {
       >
         <div className="absolute inset-0 pointer-events-none z-0 bg-gradient-to-br from-[#F4EEE2] via-[#e0e7ef] to-[#F4EEE2] opacity-60" style={{maskImage: 'radial-gradient(circle at 50% 50%, white 60%, transparent 100%)'}} />
         <h2 className="text-4xl font-bold mb-10 text-center text-[#074B70] relative z-10">Academics</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 relative z-10">
-          {/* Kindergarten */}
-          <motion.div
-            whileHover={{ scale: 1.04, boxShadow: "0 12px 40px #074B7040" }}
-            className="bg-white rounded-xl shadow-xl p-8 flex flex-col items-center border-t-4 border-[#074B70] transition-all duration-300 cursor-pointer"
-          >
-            <div className="relative w-24 h-24 mb-4">
-              <Image
-                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=400&q=80"
-                alt="Kindergarten students playing with blocks"
-                fill
-                className="rounded-full object-cover"
-                sizes="(max-width: 768px) 100vw, 100vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black/80 rounded-full" />
-            </div>
-            <h3 className="text-2xl font-semibold mb-4 text-[#074B70]">Kindergarten</h3>
-            <p className="text-[#074B70] text-center mb-6">
-              A nurturing start for our youngest learners, focusing on:
-              <ul className="list-disc pl-6 mt-2 text-[#074B70]">
-                <li>Play-based learning</li>
-                <li>Social-emotional development</li>
-                <li>Early literacy and numeracy</li>
-                <li>Creative arts and expression</li>
-              </ul>
-            </p>
-            <motion.button
-              whileHover={{ scale: 1.07 }}
-              whileTap={{ scale: 0.97 }}
-              className="bg-[#074B70] text-white px-6 py-2.5 rounded-lg font-semibold shadow-lg hover:bg-[#156494] focus:outline-none focus:ring-2 focus:ring-[#074B70] text-sm transition-all duration-300"
-            >
-              View Curriculum
-            </motion.button>
-          </motion.div>
+        <div className="grid grid-cols-1 gap-10 place-items-center relative z-10">
+          
+          
 
-          {/* Elementary */}
-          <motion.div
-            whileHover={{ scale: 1.04, boxShadow: "0 12px 40px #074B7040" }}
-            className="bg-white rounded-xl shadow-xl p-8 flex flex-col items-center border-t-4 border-[#074B70] transition-all duration-300 cursor-pointer"
-          >
-            <div className="relative w-24 h-24 mb-4">
-              <Image
-                src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=400&q=80"
-                alt="Elementary students in classroom"
-                fill
-                className="rounded-full object-cover"
-                sizes="(max-width: 768px) 100vw, 100vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black/80 rounded-full" />
-            </div>
-            <h3 className="text-2xl font-semibold mb-4 text-[#074B70]">Elementary (1-5)</h3>
-            <p className="text-[#074B70] text-center mb-6">
-              Building strong academic foundations in:
-              <ul className="list-disc pl-6 mt-2 text-[#074B70]">
-                <li>Core subjects (Math, Science, Social Studies)</li>
-                <li>Uzbek and English language arts</li>
-                <li>Technology and digital literacy</li>
-                <li>Physical education and wellness</li>
-              </ul>
-            </p>
-            <motion.button
-              whileHover={{ scale: 1.07 }}
-              whileTap={{ scale: 0.97 }}
-              className="bg-[#074B70] text-white px-6 py-2.5 rounded-lg font-semibold shadow-lg hover:bg-[#156494] focus:outline-none focus:ring-2 focus:ring-[#074B70] text-sm transition-all duration-300"
-            >
-              View Curriculum
-            </motion.button>
-          </motion.div>
-
-          {/* Middle & High */}
+          {/* High School */}
           <motion.div
             whileHover={{ scale: 1.04, boxShadow: "0 12px 40px #074B7040" }}
             className="bg-white rounded-xl shadow-xl p-8 flex flex-col items-center border-t-4 border-[#074B70] transition-all duration-300 cursor-pointer"
@@ -445,14 +380,14 @@ export default function ClientHome() {
             <div className="relative w-24 h-24 mb-4">
               <Image
                 src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80"
-                alt="Middle school students in science lab"
+                alt="High school students in science lab"
                 fill
                 className="rounded-full object-cover"
                 sizes="(max-width: 768px) 100vw, 100vw"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black/80 rounded-full" />
             </div>
-            <h3 className="text-2xl font-semibold mb-4 text-[#074B70]">Middle & High (6-11)</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-[#074B70]">High School</h3>
             <p className="text-[#074B70] text-center mb-6">
               Preparing students for success with:
               <ul className="list-disc pl-6 mt-2 text-[#074B70]">
