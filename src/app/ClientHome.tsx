@@ -244,9 +244,9 @@ export default function ClientHome() {
       >
         <div className="absolute inset-0 pointer-events-none z-0 opacity-10 bg-[url('/globe.svg')] bg-center bg-no-repeat bg-contain" />
         {/* Animated numbers for stats */}
-        <AnimatedStat icon="🎓" end={1078} label="Students" />
-        <AnimatedStat icon="👩‍🏫" end={48} label="Teachers" />
-        <AnimatedStat icon="🏫" end={12} label="Grades" />
+        <AnimatedStat icon="🎓" end={528} label="Students" />
+        <AnimatedStat icon="👩‍🏫" end={31} label="Teachers" />
+        <AnimatedStat icon="🏫" end={11} label="Grades" />
         <AnimatedStat icon="🏅" end={89} suffix="%" label="Graduation Rate" />
       </motion.section>
 
@@ -288,7 +288,7 @@ export default function ClientHome() {
             >
               <h3 className="text-2xl font-semibold text-[#074B70] mb-2">Who We Are</h3>
               <p className="text-base text-[#074B70] text-justify">
-                Founded on April 8, 2021 in Jizzakh city, Mentor-school is a private charter school and vibrant, forward-thinking community where tradition meets ambition. As a primarily online course delivery institution, we are proud of our talented teachers, diverse student body, and our commitment to academic excellence and personal growth.
+                Founded on April 8, 2021 in Jizzakh city, Mentor-school is a Non-governmental education organization and vibrant, forward-thinking community where tradition meets ambition. As a primarily online course delivery institution, we are proud of our talented teachers, diverse student body, and our commitment to academic excellence and personal growth.
               </p>
             </motion.div>
 
@@ -308,7 +308,7 @@ export default function ClientHome() {
             >
               <h3 className="text-2xl font-semibold text-[#074B70] mb-2">What Makes Us Unique</h3>
               <ul className="list-disc pl-6 text-base text-[#074B70]">
-                <li className="mb-2">Small class sizes and personal attention for every child</li>
+                <li className="mb-2">Small class sizes (around 48 students) and personal attention for every child</li>
                 <li className="mb-2">Modern facilities and a safe, welcoming campus</li>
                 <li className="mb-2">Strong partnership with families and the Jizzakh community</li>
                 <li className="mb-2">Focus on both academic achievement and character development</li>
@@ -348,7 +348,7 @@ export default function ClientHome() {
             <span className="absolute -top-6 left-1/2 -translate-x-1/2 text-3xl">"</span>
             <span className="block font-playfair text-xl mb-2">A Message from the Principal</span>
             <span className="block text-base italic text-justify">"At Mentor-school, we believe every child in Jizzakh deserves a nurturing, challenging, and joyful education. Our dedicated teachers and staff work closely with families to help each student discover their strengths, build confidence, and prepare for a bright future. We are proud of our school's spirit, our commitment to tradition and innovation, and the close-knit community we have built together. I warmly invite you to visit us and experience Mentor-school for yourself."</span>
-            <span className="block mt-2 text-xs italic">— Mirxhond Mamadiyorov, Principal</span>
+            <span className="block mt-2 text-xs italic">— Mirkhond Mamadiyorov, Principal</span>
           </motion.div>
         </div>
       </motion.section>
@@ -563,7 +563,7 @@ export default function ClientHome() {
           <div className="mt-8 text-[#074B70] space-y-3">
             <div className="flex items-center gap-2">
               <span className="text-[#074B70]">📍</span>
-              <span>Massiv Zargarlik, Jizzakh, 130100, Uzbekistan</span>
+              <span>Jizzakh city, C2a (Sdva)</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-[#074B70]">📞</span>
@@ -587,11 +587,17 @@ export default function ClientHome() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black/80 rounded-lg" />
           </div>
           <div className="flex gap-4 mt-4">
-            <span className="bg-[#FFD700] text-[#074B70] px-4 py-2 rounded-full text-sm font-medium">Accredited</span>
-            <span className="bg-[#FFD700] text-[#074B70] px-4 py-2 rounded-full text-sm font-medium">Member: National School Assoc.</span>
+            <span className="bg-[#FFD700] text-[#074B70] px-4 py-2 rounded-full text-sm font-medium">Accredited: Non-governmental education organization</span>
           </div>
         </div>
       </motion.section>
+
+      {/* Footer */}
+      <footer className="w-full bg-[#F4EEE2] py-6">
+        <div className="max-w-6xl mx-auto px-4 text-right text-[#074B70]">
+          <p>&copy; 2021-2025 Mentor-school. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 }
