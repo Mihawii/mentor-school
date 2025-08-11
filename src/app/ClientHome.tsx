@@ -308,7 +308,7 @@ export default function ClientHome() {
             >
               <h3 className="text-2xl font-semibold text-[#074B70] mb-2">What Makes Us Unique</h3>
               <ul className="list-disc pl-6 text-base text-[#074B70]">
-                <li className="mb-2">Small class sizes (around 48 students) and personal attention for every child</li>
+                <li className="mb-2">Small class sizes (48 students in 2 groups) and personal attention for every child</li>
                 <li className="mb-2">Modern facilities and a safe, welcoming campus</li>
                 <li className="mb-2">Strong partnership with families and the Jizzakh community</li>
                 <li className="mb-2">Focus on both academic achievement and character development</li>
@@ -367,7 +367,10 @@ export default function ClientHome() {
         aria-label="Academics"
       >
         <div className="absolute inset-0 pointer-events-none z-0 bg-gradient-to-br from-[#F4EEE2] via-[#e0e7ef] to-[#F4EEE2] opacity-60" style={{maskImage: 'radial-gradient(circle at 50% 50%, white 60%, transparent 100%)'}} />
-        <h2 className="text-4xl font-bold mb-10 text-center text-[#074B70] relative z-10">Academics</h2>
+        <h2 className="text-4xl font-bold mb-4 text-center text-[#074B70] relative z-10">Academics</h2>
+        <p className="text-center text-[#074B70] mb-8 relative z-10">
+          We offer Grades 1–11 with up to 48 students organized into 2 groups.
+        </p>
         <div className="grid grid-cols-1 gap-10 place-items-center relative z-10">
           
           
@@ -393,7 +396,7 @@ export default function ClientHome() {
                 Our high school program provides a rigorous, well-rounded education focused on strong subject mastery and real‑world skills.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-2">
-                <span className="bg-[#F4EEE2] text-[#074B70] px-3 py-1 rounded-full text-sm border border-[#C2B280]">Class size: 48 students</span>
+                <span className="bg-[#F4EEE2] text-[#074B70] px-3 py-1 rounded-full text-sm border border-[#C2B280]">Up to 48 students (2 groups)</span>
                 <span className="bg-[#F4EEE2] text-[#074B70] px-3 py-1 rounded-full text-sm border border-[#C2B280]">Experienced faculty</span>
               </div>
               <ul className="list-disc text-left pl-6 mt-2">
