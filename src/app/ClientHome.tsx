@@ -388,15 +388,23 @@ export default function ClientHome() {
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black/80 rounded-full" />
             </div>
             <h3 className="text-2xl font-semibold mb-4 text-[#074B70]">High School</h3>
-            <p className="text-[#074B70] text-center mb-6">
-              Preparing students for success with:
-              <ul className="list-disc pl-6 mt-2 text-[#074B70]">
-                <li>Advanced academic programs</li>
-                <li>Leadership opportunities</li>
-                <li>College preparation</li>
-                <li>Specialized electives</li>
+            <div className="text-[#074B70] text-center mb-6 space-y-3">
+              <p className="text-justify">
+                Our high school program provides a rigorous, well-rounded education focused on strong subject mastery and real‑world skills.
+              </p>
+              <div className="flex flex-wrap items-center justify-center gap-2">
+                <span className="bg-[#F4EEE2] text-[#074B70] px-3 py-1 rounded-full text-sm border border-[#C2B280]">Class size: 48 students</span>
+                <span className="bg-[#F4EEE2] text-[#074B70] px-3 py-1 rounded-full text-sm border border-[#C2B280]">Experienced faculty</span>
+              </div>
+              <ul className="list-disc text-left pl-6 mt-2">
+                <li>Core subjects: Mathematics, Sciences, Languages, and Social Studies</li>
+                <li>Exam readiness with practice tests and targeted review</li>
+                <li>Electives and enrichment: STEM labs, entrepreneurship, design, and arts</li>
+                <li>Leadership development through projects and student initiatives</li>
+                <li>University and career guidance with mentorship and counseling</li>
+                <li>Clubs, competitions, and community service opportunities</li>
               </ul>
-            </p>
+            </div>
             <motion.button
               whileHover={{ scale: 1.07 }}
               whileTap={{ scale: 0.97 }}
