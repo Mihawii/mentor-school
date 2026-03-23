@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const Footer = () => {
   return (
     <footer className="w-full bg-[#074B70] text-white pt-16 pb-8 border-t-4 border-[#C2B280]">

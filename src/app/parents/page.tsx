@@ -1,8 +1,6 @@
 "use client";
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
 import { motion } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
 
 export default function ParentsPage() {
   return (

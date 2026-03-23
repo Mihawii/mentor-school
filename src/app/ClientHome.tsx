@@ -148,7 +148,7 @@ export default function ClientHome() {
             
             <div className="text-[#1E293B] space-y-6 text-lg font-normal leading-relaxed">
               <p>
-                "At Mentor-school, we believe every child deserves a nurturing, challenging, and joyful education. Located in the heart of Jizzakh, our dedicated faculty works closely with families to help each student discover their unique strengths and capabilities."
+                &quot;At Mentor-school, we believe every child deserves a nurturing, challenging, and joyful education. Located in the heart of Jizzakh, our dedicated faculty works closely with families to help each student discover their unique strengths and capabilities.&quot;
               </p>
               <p>
                 Founded on April 8, 2021, Mentor-school is a proud <strong className="font-bold text-[#074B70]">non-governmental educational organization</strong>. We have quickly grown into a forward-thinking community where tradition meets ambition. Our small class sizes ensure personal attention, providing a safe and inspiring campus for students to thrive academically and socially.
